@@ -98,12 +98,12 @@ const AddProduct = () => {
                 className='w-full px-4 py-3 rounded-lg ring-red-200 border border-gray-300 focus:ring-4 focus:outline-none transition duration-300 focus: shadow-xl' >
                 </input>
                 <label htmlFor="title" className='text-gray-500 poppins'>Categoria:</label>
-                {/* <MultiSelect>
+                <MultiSelect>
                     options={categories}
                     value={selected}
                     onChange={setSelected}
                     LabelleBy="Select"
-                </MultiSelect> */}
+                </MultiSelect>
                 {/* <select type="Pizza Doce" id='Pizza Doce' name='Pizza Doce' required
                 className='w-full px-4 py-3 rounded-lg ring-red-200 border border-gray-300 focus:ring-4 focus:outline-none transition duration-300 focus: shadow-xl' >
                 </select>  */}

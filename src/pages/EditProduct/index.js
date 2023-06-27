@@ -92,19 +92,19 @@ const EditProduct = () => {
                 className='w-full px-4 py-3 rounded-lg ring-red-200 border border-gray-300 focus:ring-4 focus:outline-none transition duration-300 focus: shadow-xl' >
                 </input>
                 <label htmlFor="title" className='text-gray-500 poppins'>Categoria:</label>
-                {/* <MultiSelect>
+               <MultiSelect>
                     options={categories}
                     value={selected}
                     onChange={setSelected}
                     LabelleBy="Select"
-                </MultiSelect> */}
-                {/* <select type="Pizza Doce" id='Pizza Doce' name='Pizza Doce' required
+               </MultiSelect>
+                <select type="Pizza Doce" id='Pizza Doce' name='Pizza Doce' required
                 className='w-full px-4 py-3 rounded-lg ring-red-200 border border-gray-300 focus:ring-4 focus:outline-none transition duration-300 focus: shadow-xl' >
-                </select>  */}
-                <select>
+                </select>  
+                {/* <select>
                     <option>Pizza Salgada</option>
                     <option>Pizza Doce</option>
-                </select>
+                </select> */}
                 <div>
                     <button type='submit' className="w-full px-2 py-3 bg-primary text-white  ring-red-200 border border-gray-300 focus:ring-4 focus:outline-none transition duration-300 focus: shadow-xl">
                         Editar
